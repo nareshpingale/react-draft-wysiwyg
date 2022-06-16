@@ -1,6 +1,7 @@
 export default {
   // Generic
   "generic.add": "Add",
+  "generic.apply": "Apply",
   "generic.cancel": "Cancel",
 
   // BlockType

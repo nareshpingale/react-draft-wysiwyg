@@ -119,6 +119,7 @@ class LayoutComponent extends Component {
           onBlur={this.updateValue}
           name="linkTitle"
           value={linkTitle}
+          autoFocus={true}
         />
         <label className="rdw-link-modal-label" htmlFor="linkTarget">
           {translations['components.controls.link.linkTarget']}
@@ -152,7 +153,7 @@ class LayoutComponent extends Component {
             onClick={this.addLink}
             disabled={!linkTarget || !linkTitle}
           >
-            {translations['generic.add']}
+            {translations['generic.apply']}
           </button>
           <button className="rdw-link-modal-btn" onClick={doCollapse}>
             {translations['generic.cancel']}
